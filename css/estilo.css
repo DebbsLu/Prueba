@@ -126,6 +126,8 @@ header h2{
       z-index: 2;
     }
 
+
+/*-------------menu barra------------------------*/
 ul{
   display: flex;
   border: 1px solid #6E6E6D;
@@ -133,7 +135,7 @@ ul{
  width: fit-content;
  /* 6E6E6D rgba(3, 4, 2, 0.3);*/
   background-color: rgba(3, 4, 2, 0.3);
-  padding: 5px;
+  padding: 3px 7px 3px 7px;
   gap: 50px;
 }
 
@@ -157,12 +159,12 @@ a{
 
 #lineaizq2
 {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 #lineader2
 {
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 /* unvisited link */
@@ -179,7 +181,7 @@ a:visited {
 a:hover {
  /* color: #FDD17A*/
   background: #FDD17A;
-  border-radius: 25px;
+  border-radius: 20px;
   color: #242D25;
 }
 
@@ -202,6 +204,7 @@ a:active {
   a{
       border: 1px solid #6E6E6D;
   border-radius: 25px;
+  padding: 1px 7px 1px 7px;
   }
 
   .linea2 {
