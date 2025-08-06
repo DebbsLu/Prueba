@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo2.css">
 </head>
-<body>
-    <p>Hola sí funciona</p>
+<body class="d-flex justify-content-center min-vh-100">
+
+    <div id="cuerponuevo" class="container p-4 rounded mt-3"> <!--Adentro de acá va todo dude-->
+
+        <div class="row" id="rowlugar">
+
+            <div class="col-8">
+                <!--Aca va la imagen y el texto--> 
+               <div class="divtexto">
+                    <img src="img/icons/ubicacion.png" class="icono" alt="">
+                    <h3 id="ubicacion1">Calle El Mirador #17, Zona Rosa, San Salvador.</h3>
+               </div>
+
+               <img src="img/restaurantefachada2.png" id="restaurantfachada" alt="">
+            </div>
+
+            <div class="col-auto">
+            <div class="linea3"></div>
+            </div>
+
+            <div class="col-3" id="mobili">
+                <img src="img/4.jpg" class="mobiliimg" id="imagen1" alt="">
+                <img src="img/2.jpg" class="mobiliimg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
